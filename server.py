@@ -110,6 +110,6 @@ def scrape():
         # Return error message if any exception occurs during scraping
         return jsonify({'error': str(e)}), 500
 
-if __name__ == "__main__":
-    print("start Flask server")
-    app.run(debug=True)
+# if __name__ == "__main__":
+#     print("start Flask server")
+#     app.run()
